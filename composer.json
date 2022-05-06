@@ -1,0 +1,20 @@
+{
+    "name": "suz15/weather-package",
+    "description": "An OpenWeatherAPI wrapper package. Needs an apikey to initialize an client object.",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Suz15\\WeatherPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zeyu Su",
+            "email": "suz15@miamioh.edu"
+        }
+    ]
+}
