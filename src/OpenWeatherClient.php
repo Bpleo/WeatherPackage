@@ -4,8 +4,7 @@
  * CSE 451
  * Open weather API wrapper package
  * 05/05/2022
- * To use, please create a password.php and put in one variable called APIKEY with the actual 
- * API key as the value.
+ * To use, please provide an apikey to initialize the object
  * */
 namespace Suz15\WeatherPackage;
 use GuzzleHttp\Client;
